@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Menu</title>
-    <link rel="stylesheet" href="carla.css">
+    <style>
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            padding: 7px 12px;
+            text-transform: capitalize;
+            background-color: #ccc;
+        }
+
+        li:hover {
+            background-color: black;
+            color: white;
+        }
+
+        li:first-of-type {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        li:last-of-type {
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    </style>
 </head>
+
 <body>
     <ul>
         <li>inicio</li>
@@ -15,4 +43,5 @@
         <li>Autor</li>
     </ul>
 </body>
+
 </html>
